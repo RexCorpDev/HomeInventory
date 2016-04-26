@@ -23,5 +23,7 @@ db.connect();
 
 // DELETE BY ID
 //db.query('DELETE FROM ITEMS WHERE ID = 1');
+//console.log('config db: ',database);
+ module.exports = db;
 
-module.export = db;
+// db.done();

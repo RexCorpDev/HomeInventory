@@ -10,8 +10,14 @@ var app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static('public'));
+app.set('view engine', 'ejs');
 
-app.route('/api', require('./routes/api'));
+app.use('/api', require('./routes/api'));
+
+app.get('/', (req, res) => {
+  res.render('home');
+})
 
 app.listen(PORT, err => {
   console.log(err || `Server listening on PORT ${PORT}`);
