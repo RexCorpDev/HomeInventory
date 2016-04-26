@@ -24,4 +24,4 @@ db.connect();
 // DELETE BY ID
 //db.query('DELETE FROM ITEMS WHERE ID = 1');
 
-db.end();
+module.export = db;
