@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "postinstall": "bower i"
+    "postinstall": "bower",
+    "engines": {
+      "node": "5.10.1"
+    }
   },
   "keywords": [],
   "author": "",
@@ -14,7 +17,6 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "bower": "^1.7.9",
-    "ej": "^1.0.4",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "morgan": "^1.7.0",
