@@ -5,7 +5,7 @@ var router = express.Router();
 
 var Rooms = require('../models/room');
 
-router.route('/:id/:id')
+router.route('/')
 .get((req, res) => {
   Rooms.findAllRooms((err, rooms) => {
     if(err){
