@@ -1,12 +1,12 @@
 {
-  "name": "25Apr2016_Homework_HomeInventory",
+  "name": "25Apr2016_HomeInventory",
   "description": "",
   "main": "app.js",
   "authors": [
     "RexCorpDev <rexcorpfx@gmail.com>"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/RexCorpDev/HomeInventory",
+  "homepage": "https://github.com/RexCorpDev/HomeInventory.git",
   "ignore": [
     "**/.*",
     "node_modules",
