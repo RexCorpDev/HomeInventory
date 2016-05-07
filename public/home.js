@@ -15,7 +15,7 @@ $(() => {
 var showMainTable = {
   kitchen:      function(e){
     e.preventDefault();
-    $.get('api/rooms', ).done() => {
+    $.get('api/rooms').done() => {
     }
   }
   //   dining:       function(e){
